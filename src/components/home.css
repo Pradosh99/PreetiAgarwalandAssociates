@@ -1,28 +1,150 @@
-.homepage{
-    background-image: url('https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?q=80&w=1582&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* General homepage styling */
+.homepage {
+  background-image: url('https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?q=80&w=1582&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; /* Centering text for the homepage */
 }
 
+/* Keyframe for animated glide effect */
 @keyframes glideUpDown {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Styling for animated images with glide effect */
+.animated-image {
+  animation: glideUpDown 4s ease-in-out infinite;
+}
+
+/* Styling for homepage heading */
+.homepage-heading {
+  font-size: 3.7rem; /* Responsive font size */
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 1.25rem; /* 20px */
+  color: white; /* Dark text for better contrast */
+}
+
+/* Styling for homepage paragraph */
+.homepage-paragraph {
+  font-size: 1.1rem; /* Slightly larger text */
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.8;
+  color: white; /* Medium grey for contrast */
+}
+
+/* Mission & Vision Section Styling */
+.mission-heading {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2.5rem; /* 40px */
+}
+
+/* Styling for service cards */
+.service-card {
+  width: 100%; /* Full width for cards */
+  border-radius: 15px;
+  padding: 10px;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.service-icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin: auto;
+}
+
+.card-body {
+  padding: 1rem; /* Padding inside card */
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Dark text for readability */
+}
+
+/* Responsive design adjustments for smaller screens */
+@media (max-width: 768px) {
+  .homepage-heading {
+    font-size: 2rem; /* Smaller font for better readability on mobile */
   }
 
-  .animated-image {
-    animation: glideUpDown 4s ease-in-out infinite;
+  .homepage-paragraph {
+    margin-left: 10%;
+    margin-right: 10%; /* Reduced margins on small screens */
   }
+
+  .service-card {
+    margin-bottom: 20px; /* Increased bottom margin for smaller screens */
+  }
+
+  .service-icon {
+    height: 80px; /* Smaller icons for mobile */
+    width: 80px;
+  }
+}
+
+/* Ensures company image is responsive */
+.company-img {
+  width: 100%; /* Full width */
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Vision section heading */
+.vision-heading {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 2rem; /* Consistent font size for the heading */
+}
+
+/* Vision section paragraph */
+.vision-paragraph {
+  font-size: 1rem; /* Consistent paragraph text size */
+  line-height: 1.6;
+  color: #555;
+  font-family: Arial, sans-serif;
+  text-align: justify; /* Justified text for better flow */
+}
+
+/* Additional styling adjustments for cards and containers */
+.container {
+  max-width: 1200px; /* Prevents the content from becoming too wide */
+  margin: 0 auto; /* Centers the container */
+}
+
+.card-body {
+  padding: 1.25rem; /* Slightly increased padding for better spacing */
+}
+
+.text-center {
+  text-align: center; /* Ensures text is centered for headings */
+}
+
+.fw-bold {
+  font-weight: bold; /* Ensures the text is bold */
+}

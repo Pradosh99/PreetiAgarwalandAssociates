@@ -1,0 +1,35 @@
+/* Hover effects for navbar links */
+.navbar-item {
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Change text color and background on hover */
+  .navbar-item:hover {
+    color: #0056b3; /* Change text color on hover */
+    background-color: #d4d4d4; /* Light background color on hover */
+    border-radius: 15px; /* Rounded corners on hover */
+  }
+  
+  /* Add an underline effect when hovered */
+  .navbar-item:hover {
+    text-decoration: underline; /* Underline the text on hover */
+    text-underline-offset: 5px; /* Adjust the distance of the underline */
+  }
+  
+  /* Active navbar item style */
+  .navbar-item.active {
+    font-weight: bold;
+    color: #0056b3; /* Highlight active item */
+  }
+  
+  /* Navbar brand style */
+  .navbar-brand {
+    font-size: 16px; /* Adjust font size for the navbar brand */
+    font-weight: bold;
+  }
+  
+  /* Adjust navbar height */
+  .navbar {
+    padding: 10px 20px; /* Added padding for a more spacious look */
+  }
+  
