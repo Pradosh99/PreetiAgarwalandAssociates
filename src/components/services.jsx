@@ -107,7 +107,7 @@ const Services = () => {
               <div className="card-body">
                 <h5 className="card-title text-center">Agreements & Petitions</h5>
                 <p className="card-text text-center">
-                  Legal drafting and consultation services for agreements and petitions.
+                  Legal drafting and consultation services for effective professional agreements and legal petitions.
                 </p>
               </div>
             </div>

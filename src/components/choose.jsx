@@ -16,7 +16,7 @@ const Choose = () => {
       {/* Key Reasons Section */}
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {/* Reason 1: Expertise */}
-        <div className="col">
+        <div className="col" >
           <div className="card shadow-lg border-light rounded p-4">
             
             <div className="card-body">
@@ -35,7 +35,7 @@ const Choose = () => {
             <div className="card-body">
               <h5 className="card-title text-center" style={{ color: '#2c3e50' }}>Comprehensive Range of Services</h5>
               <p className="card-text text-center" style={{ color: '#555' }}>
-                From company formation and mergers to compliance audits, we offer end-to-end solutions for all corporate needs.
+                From company formation and mergers to compliance audits, we offer effective end-to-end solutions for all corporate needs.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Choose = () => {
             <div className="card-body">
               <h5 className="card-title text-center" style={{ color: '#2c3e50' }}>Trusted Advisory</h5>
               <p className="card-text text-center" style={{ color: '#555' }}>
-                We are a trusted partner for businesses, offering strategic advice that aligns with legal, compliance, and financial goals.
+                We are a trusted partner for businesses, offering strategic advice that aligns with achieving legal, compliance, and financial goals.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Choose = () => {
             <div className="card-body">
               <h5 className="card-title text-center" style={{ color: '#2c3e50' }}>Customer-Centric Approach</h5>
               <p className="card-text text-center" style={{ color: '#555' }}>
-                We prioritize our clients' needs, ensuring personalized and responsive services that are tailor-made for your business.
+                We prioritize our clients' needs, ensuring personalized and responsive services that are tailor-made for your business improvisation.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Choose = () => {
             <div className="card-body">
               <h5 className="card-title text-center" style={{ color: '#2c3e50' }}>Timely Service</h5>
               <p className="card-text text-center" style={{ color: '#555' }}>
-                We ensure that all our services are delivered on time, meeting deadlines with precision and professionalism.
+                We ensure that all our services are delivered on time, meeting deadlines with precision and professionalism workflows.
               </p>
             </div>
           </div>
