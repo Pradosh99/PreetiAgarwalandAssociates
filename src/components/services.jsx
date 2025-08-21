@@ -114,7 +114,7 @@ const Services = () => {
           </Link>
         </div>
 
-        {/* Service Card 6: Corporate Governance */}
+        {/* Service Card 6: Corporate Governance vaishali.chilwar@nesswadiacollege.edu.in*/}
         <div className="col">
           <Link to="/corporate-governance" className="text-decoration-none">
             <div className="card shadow-lg border-light rounded p-2">
